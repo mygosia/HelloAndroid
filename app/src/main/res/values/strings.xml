@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
+    <string name="quotation">Feed Your Brain</string>
+    <string name="udacity">U D A C I T Y</string>
+    <string name="adress">2465 Latham St,\nMountain View, CA 94043</string>
+    <string name="phone">650 555 555</string>
+    <string name="button">JOIN !!!</string>
 </resources>

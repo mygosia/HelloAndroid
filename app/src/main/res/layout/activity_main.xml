@@ -19,12 +19,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Feed your brain"
+        android:text="@string/quotation"
         android:textStyle="italic"
         android:textColor="@android:color/white"
         android:gravity="center"
-        android:textSize="33sp"
-        android:background="#33000000"
+        android:textSize="@dimen/text_size_big"
+        android:background="@color/colorTint"
         android:padding="13dp"/>
 
     <LinearLayout
@@ -42,7 +42,7 @@
             android:orientation="horizontal"
             android:gravity="center"
             android:padding="10dp"
-            android:background="#1A000000"
+            android:background="@color/colorTint"
             >
             <ImageView
                 android:layout_width="wrap_content"
@@ -55,52 +55,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="U D A C I T Y"
+                android:text="@string/udacity"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:padding="10dp"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/text_size_big"/>
         </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="2465 Latham St"
-            android:textColor="#D3D3D3"
-            android:background="#1A000000"
-            android:textSize="20sp"
+            android:autoLink="map"
+            android:text="@string/adress"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorTint"
+            android:textSize="@dimen/text_size"
             android:padding="3dp"
             android:layout_margin="3dp"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mountain View, CA 94043"
-            android:textColor="#D3D3D3"
-            android:background="#1A000000"
-            android:textSize="20sp"
+            android:autoLink="phone"
+            android:text="@string/phone"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorTint"
+            android:textSize="@dimen/text_size"
             android:padding="3dp"
             android:layout_margin="3dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="650-555-5555"
-            android:textColor="#D3D3D3"
-            android:background="#1A000000"
-            android:textSize="20sp"
-            android:padding="3dp"
-            android:layout_margin="3dp"
+
             />
     </LinearLayout>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#f89024"
-        android:text="Join !!!"
-        android:textSize="20sp"
-        android:textColor="#fff"
+        android:background="@color/colorAccent"
+        android:text="@string/button"
+        android:textSize="@dimen/text_size"
+        android:textColor="@android:color/white"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="13dp"/>
